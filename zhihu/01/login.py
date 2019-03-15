@@ -55,7 +55,7 @@ class ZhihuAccount:
             if self.check_login():
                 print('登录成功')
                 return True
-            print('Cookies 以过期')
+            print('Cookies 已过期')
 
         self._check_user_pass()
 
